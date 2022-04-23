@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300;700&family=Square+Peg&display=swap");
+@keyframes changecolor {
+  0% {
+    background-color: aqua;
+    border-radius: 0%;
+  }
+  10% {
+    background-color: rgb(255, 85, 0);
+    border-radius: 10%;
+  }
+  20% {
+    background-color: rgb(94, 255, 0);
+    border-radius: 20%;
+  }
+  30% {
+    background-color: rgb(221, 255, 0);
+    border-radius: 30%;
+  }
+  40% {
+    background-color: rgb(38, 0, 255);
+    border-radius: 40%;
+  }
+  50% {
+    background-color: rgb(195, 0, 255);
+    border-radius: 50%;
+  }
+  40% {
+    background-color: rgb(255, 0, 60);
+    border-radius: 40%;
+  }
+  30% {
+    background-color: rgb(255, 0, 217);
+    border-radius: 30%;
+  }
+  20% {
+    background-color: rgb(0, 255, 149);
+    border-radius: 20%;
+  }
+  10% {
+    background-color: rgb(191, 255, 0);
+    border-radius: 10%;
+  }
+  0% {
+    background-color: rgb(255, 0, 195);
+    border-radius: 0%;
+  }
+}
+#animation {
+  display: inline-block;
+  background-color: darkred;
+  height: 20px;
+  width: 20px;
+  animation: changecolor;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(151, 43, 146);
+  /* color: rgb(254, 7, 7); */
+  border: 2px solid rgb(243, 247, 6);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 55px;
+  padding: 0 15px;
+}
+nav {
+  display: flex;
+}
+.menu ul {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 465px;
+  /* justify-content: flex-end; */
+}
+.menu ul li {
+  list-style: none;
+  padding: 23px;
+}
+.menu ul li a {
+  color: rgb(235, 231, 15);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.menu ul li a:hover {
+  color: rgb(66, 238, 23);
+  /* font-style: oblique; */
+}
+.menu ul li a:active {
+  color: rgb(220, 17, 17);
+}
+
+h1 {
+  color: rgb(0, 227, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  margin: 5px auto;
+}
+.slider img {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+  margin: 8px;
+  color: rgb(47, 133, 209);
+  padding: 5px 5px;
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+  line-height: 22px;
+  text-shadow: 1.5px 1px 3px rgb(231, 10, 80);
+}
+.contact {
+  color: blue;
+  text-align: center;
+}
+.contact a {
+  text-decoration: none;
+}
+.connect button {
+  font-weight: 400;
+  background-color: rgb(218, 186, 26);
+  color: rgb(46, 46, 209);
+  text-decoration: none;
+  margin: 0 0 0 580px;
+  border-radius: 3px;
+  border-color: rgb(234, 11, 11);
+}
+.connect button:hover {
+  color: darkgreen;
+  font-weight: 800;
+  transform: scale(1.5, 1.5);
+}
+
+#ads {
+  border: 2px solid rgba(22, 211, 54, 0.756);
+  /* background-color: rgba(215, 43, 83, 0.418); */
+}
+#ads p {
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding: 15px 0;
+  background-color: darkkhaki;
+  color: rgb(227, 16, 136);
+  font-size: larger;
+}
+#parent {
+  border: 2px solid rgba(22, 211, 54, 0.756);
+  /* background-color: rgba(215, 43, 83, 0.418); */
+}
+#parent p {
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding: 15px 0;
+  background-color: darkkhaki;
+  color: rgb(227, 16, 136);
+  font-size: larger;
+}
+.about-us {
+  border: 2px solid rgba(22, 211, 54, 0.756);
+  /* background-color: rgba(215, 43, 83, 0.418); */
+}
+.about-us p {
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding: 15px 0;
+  background-color: darkkhaki;
+  color: rgb(227, 16, 136);
+  font-size: larger;
+}
+.ourservice {
+  border: 2px solid green;
+  display: inline-block;
+  width: 412.8px;
+}
+.ourservice h4 {
+  text-align: center;
+  color: rgb(89, 27, 235);
+}
+.about-us {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+#ads {
+  background-color: rgb(222, 94, 94);
+}
+#ads-child {
+  display: flex;
+  /* justify-content: end; */
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 40px;
+  background-color: darkkhaki;
+  border: 1px solid darkkhaki;
+  border-radius: 10px;
+  color: brown;
+}
+.edit {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+#ads-child p1 {
+  color: rgb(8, 94, 231);
+  font-size: larger;
+  font-weight: 600;
+  padding: 20px;
+  font-style: italic;
+}
+#table caption {
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding: 15px 0;
+  background-color: darkkhaki;
+  color: rgb(227, 16, 136);
+  font-size: larger;
+  border: 3px solid red;
+  border-radius: 6px;
+}
+#table {
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(22, 211, 54, 0.756);
+  background-color: rgb(222, 94, 94);
+  text-align: center;
+  /* margin: 0 0 0 525px; */
+  color: rgb(166, 255, 0);
+}
+#form {
+  text-align: center;
+  background-color: aqua;
+}
+textarea:focus {
+  border: 2px solid red;
+}
+footer {
+  height: 8vh;
+  background-color: rgba(74, 22, 218, 0.776);
+  color: rgb(8, 8, 8);
+  font-family: "Roboto Condensed", sans-serif;
+}
